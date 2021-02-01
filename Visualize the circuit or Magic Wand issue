@@ -27,6 +27,47 @@ Use '%jsqatdisplay' instaed of 'qatdisplay'
 
 #Issue 2:
 
+The command %quatdisplay say "command not found
+
+To Reproduce
+
+Expected behavior
+help me to make it working ^^'
+
+Screenshots
+it's not à screen, it's a copy/paste of error message went i use "python -m qat.magics.install" :
+Traceback (most recent call last):
+File "C:\Users\coutur03\AppData\Local\Programs\Python\Python38\lib\site-packages\wand\api.py", line 151, in
+libraries = load_library()
+File "C:\Users\coutur03\AppData\Local\Programs\Python\Python38\lib\site-packages\wand\api.py", line 140, in load_library
+raise IOError('cannot find library; tried paths: ' + repr(tried_paths))
+OSError: cannot find library; tried paths: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+File "C:\Users\coutur03\AppData\Local\Programs\Python\Python38\lib\runpy.py", line 194, in _run_module_as_main
+return _run_code(code, main_globals, None,
+File "C:\Users\coutur03\AppData\Local\Programs\Python\Python38\lib\runpy.py", line 87, in _run_code
+exec(code, run_globals)
+File "C:\Users\coutur03\AppData\Local\Programs\Python\Python38\lib\site-packages\qat\magics\install.py", line 20, in
+from qat.core.magic.install import install_qlm_magics
+File "init.py", line 22, in init qat.core.magic.init
+File "C:\Users\coutur03\AppData\Local\Programs\Python\Python38\lib\site-packages\qat\core\magic\magic.py", line 29, in
+from wand.image import Image as WImage
+File "C:\Users\coutur03\AppData\Local\Programs\Python\Python38\lib\site-packages\wand\image.py", line 18, in
+from . import assertions
+File "C:\Users\coutur03\AppData\Local\Programs\Python\Python38\lib\site-packages\wand\assertions.py", line 155, in
+from .color import Color # noqa: E402
+File "C:\Users\coutur03\AppData\Local\Programs\Python\Python38\lib\site-packages\wand\color.py", line 10, in
+from .api import library
+File "C:\Users\coutur03\AppData\Local\Programs\Python\Python38\lib\site-packages\wand\api.py", line 175, in
+raise ImportError('MagickWand shared library not found.\n'
+ImportError: MagickWand shared library not found.
+You probably had not installed ImageMagick library.
+Try to install:
+https://docs.wand-py.org/en/latest/guide/install.html#install-imagemagick-on-windows
+
 
 #Suggestion for Issue 2:
 
