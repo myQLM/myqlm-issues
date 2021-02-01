@@ -1,0 +1,7 @@
+#Issue 1:
+ImportError: dlopen(/Users/lucietournier/opt/anaconda3/lib/python3.8/site-packages/qat/init.so, 2): Library not loaded: /Library/Frameworks/Python.framework/Versions/3.8/Python
+Referenced from: /Users/lucietournier/opt/anaconda3/lib/python3.8/site-packages/qat/init.so
+Reason: image not found
+
+# Suggesion for Issue 1:
+It’s recommended to use the official Python distribution (without virtual environment or without anaconda) on MacOS.
