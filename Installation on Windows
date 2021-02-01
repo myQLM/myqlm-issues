@@ -1,0 +1,16 @@
+#Issue 1:
+
+the installation on a PC with windows 7 leads to the following error :
+pip install myqlm
+Collecting myqlm
+Using cached myqlm-1.1.6-py3-none-any.whl (1.8 kB)
+Using cached myqlm-1.1.5-py3-none-any.whl (1.6 kB)
+ERROR: Cannot install myqlm==1.1.5 and myqlm==1.1.6 because these package versio
+ns have conflicting dependencies.
+The conflict is caused by:
+myqlm 1.1.6 depends on qat-comm>=1.1.6
+myqlm 1.1.5 depends on qat-core>=1.2.5
+
+
+# Suggestion for Issue 1
+
