@@ -14,3 +14,5 @@ myqlm 1.1.5 depends on qat-core>=1.2.5
 
 # Suggestion for Issue 1
 
+1. If myQLM is not installed on your machine (you can check by typing pip show myqlm), you can force pip to install the latest version of myQLM by typing the command pip install myqlm==1.1.6.
+2. If myQLM is installed on your machine, maybe several versions are conflicting. If you can, uninstalling myQLM (all installed versions) before reinstalling myQLM could solve your issue.
