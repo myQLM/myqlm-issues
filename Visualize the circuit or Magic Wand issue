@@ -1,0 +1,33 @@
+#Issue 1:
+
+Describe the bug
+I'm not able to print circuits with %qatdisplay circuit.
+
+To Reproduce
+I was running the tutorial epr_pair. Everything worked well until it tried to print the circuit.
+
+Screenshots
+There is a screenshot of the error as an attachment.
+
+Desktop
+
+OS: Windows 10
+Browser: Chrome
+Additional context
+I installed ' ImageMagick for wand' as sugggested with:
+
+pip install Wand
+ImageMagick-6.9.11-42-Q16-HDRI-x64-dll.exe | Win64 dynamic at 16 bits-per-pixel component
+error_print_circuits
+
+#Suggestion for Issue 1:
+
+Use '%jsqatdisplay' instaed of 'qatdisplay'
+
+
+#Issue 2:
+
+
+#Suggestion for Issue 2:
+
+Use '%jsqatdisplay' instaed of 'qatdisplay'
