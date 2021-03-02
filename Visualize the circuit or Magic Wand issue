@@ -72,3 +72,8 @@ https://docs.wand-py.org/en/latest/guide/install.html#install-imagemagick-on-win
 #Suggestion for Issue 2:
 
 Use '%jsqatdisplay' instaed of 'qatdisplay'
+
+
+#Issue 3: I am having the same problem. I work on windows and the %qatdisplay doesn't work, but neither does the %jsqatdisplay.
+Please see the attached screenshot to see the error message. It says the function is not found.
+
