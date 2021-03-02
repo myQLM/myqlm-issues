@@ -77,3 +77,11 @@ Use '%jsqatdisplay' instaed of 'qatdisplay'
 #Issue 3: I am having the same problem. I work on windows and the %qatdisplay doesn't work, but neither does the %jsqatdisplay.
 Please see the attached screenshot to see the error message. It says the function is not found.
 
+#suggestion for Issue 3:
+
+Our qatdisplay magic requires wand module to display quantum circuits inside Jupyter notebooks (cf. Prerequisites in the documentation)
+
+The wand module requires extra tools to work (like the ImageMagick library). Since you are using Windows, please go to the Install ImageMagick on Windows page to download this library.
+Once you have installed this library, you can install myQLM magics again:
+
+python -m qat.magics.install
