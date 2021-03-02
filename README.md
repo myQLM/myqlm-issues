@@ -7,4 +7,9 @@ For simple questions and discussion on quantum computation and myQLM you can use
 
 It’s recommended to use the official Python distribution (without virtual environment or without anaconda) on MacOS.
 
-# Guidelines for installing myQLM on Windows
+# Guidelines for installing myQLM magics on Windows
+
+The wand module requires extra tools to work (like the ImageMagick library) on Windows, please go to the Install ImageMagick on Windows page to download this library.
+Once you have installed this library, you can install myQLM magics again:
+
+python -m qat.magics.install
