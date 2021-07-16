@@ -13,3 +13,7 @@ The wand module requires extra tools to work (like the ImageMagick library) on W
 Once you have installed this library, you can install myQLM magics:
 
 python -m qat.magics.install
+
+# Do you have any question related to myQLM?
+
+You can also contact us on slack : https://myqlmworkspace.slack.com/join/shared_invite/zt-nvtt5hk3-BX53Dg5YhZaYWRnRoDtLUA#/shared-invite/email
